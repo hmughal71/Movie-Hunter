@@ -22,6 +22,10 @@
             overflow: hidden;
         }
         
+        .brands-carousel>div {
+            width: 100%;
+        }
+        
         .brands-carousel>picture {
             width: 100%;
             position: absolute;
@@ -103,9 +107,10 @@
                 transform: translateX(-100%);
             }
         }
-        /* .brands-carousel>picture:last-child {
+        
+        .brands-carousel>picture:last-child {
             display: none;
-        } */
+        }
         
         @media screen and (max-width: 766px) {
             .brands-container {
@@ -132,18 +137,8 @@
             }
         }
         
-        .cardtext {
+        body {
             background-color: black;
-            color: white;
-            text-align: center;
-            font-size: 14px;
-            padding-top: auto;
-        }
-        
-        .mycard {
-            background-color: rgb(251, 253, 253);
-            height: 450px;
-            width: 200px;
         }
     </style>
 </head>
@@ -151,61 +146,31 @@
 <body>
     <section>
         <div class="is-hidden-tablet">
-            <h1 class="has-text-primary is-size-2 is-family-primary has-text-centered">
-                Welcome to The mobile world
-            </h1>
+
+            <h1 class="has-text-white is-size-2 is-family-primary has-text-centered ">Welcome to The mobile world</h1>
+
+
         </div>
     </section>
 
     <section class="banner is-hidden-mobile">
         <div class="brands-container">
             <div class="brands-carousel">
-                <picture> <img src="./assets/pic1.jpeg" /></picture>
-                <picture> <img src="./assets/pic2.jpeg" /></picture>
-
-                <picture> <img src="./assets/pic3.jpeg" /></picture>
-                <picture> <img src="./assets/pic4.jpeg" /></picture>
-                <picture> <img src="./assets/pic5.jpeg" /></picture>
+                <picture>
+                    <img src="./assets/pic1.jpeg" /></picture>
+                <picture>
+                    <img src="./assets/pic2.jpeg" /></picture>
+                </picture>
+                <picture>
+                    <img src="./assets/pic3.jpeg" /></picture>
+                </picture>
             </div>
         </div>
     </section>
-    <section class="columns is-justify-content-center">
-        <div class="column is-6 card mt-5 ">
-            <input id="input" class="input is-primary" type="text" placeholder="Enter a city/town ...." />
-            <label class="checkbox">
-                <input type="checkbox" />
-                5kms
-              </label>
-            <label class="checkbox">
-                <input type="checkbox" />
-                20kms
-              </label>
-            <button id="searchcity" class="button is-normal is-primary my-3 is-fullwidth">
-                Search
-              </button>
 
 
-
-
-
-        </div>
-
-
-    </section>
-    <section>
-        <div class="container">
-            <div id="start" class="columns container is-flex-wrap-wrap is-justify-content-center">
-
-
-
-            </div>
-        </div>
-    </section>
-    </div>
 
     <script src="./assets/js/script.js"></script>
-
-
 </body>
 
 </html>
