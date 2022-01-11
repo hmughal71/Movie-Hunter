@@ -34,7 +34,10 @@ From the getmovies function the moviesrunningat function is called and all the i
 ADD DEPLOYED URL
 
 <h2>Screenshot:</h2>
-
+<img src="./assets/movie-hunter-wireframe-1.png">
+<img src="./assets/movie-hunter-wireframe-2.png">
+<img src="./assets/movie-hunter-wireframe-3.png">
+<img src="./assets/movie-hunter-flowchart-1.png">
 
 
 <br/>
@@ -49,9 +52,9 @@ ADD DEPLOYED URL
 
 <ul>
     <h3>Sean Scott</h3>
-        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
-        <li><a href = https://github.com/Pattiqus>GitHub</li>
-        <li><a href = Patticus.tv@gmail.com>Email</li>     
+        <li><a href = https://www.linkedin.com/in/sean-scott-18ba07225>LinkedIn</li>
+        <li><a href = https://github.com/seanscott95>GitHub</li>
+        <li><a href = seanscott95@live.com>Email</li>     
 </ul>
 
 <ul>
