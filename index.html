@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+ <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movie Hunter</title>
+    <title>Movie-hunter</title>
+
     <link
     rel="stylesheet"
     href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
     crossorigin="anonymous"
   />
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
     <style>
@@ -24,7 +26,7 @@
             position: relative;
             padding-left: 0;
             margin: 0;
-            height: 400px;
+            height: 200px;
             overflow: hidden;
         }
         
@@ -112,11 +114,23 @@
         /* .brands-carousel>picture:last-child {
             display: none;
         } */
-        
-        @media screen and (max-width: 766px) {
-            .brands-container {
-                max-width: 200px;
+        @media screen and (min-width: 1068px )  {
+            .brands-carousel {
+               height: 400px;
             }
+         
+        } 
+         
+            @media screen and (min-width: 1068px ) and (max-width: 1782px ) {
+                .brands-carousel {
+                height: 240px;
+                }
+           }
+        
+        /* @media screen and (max-width: 766px )  {
+            .brands-carousel {
+                max-width: 200px;
+            } */
             .brands-carousel>picture {
                 animation: carousel-responsive 20s linear infinite;
             }
@@ -136,7 +150,7 @@
                 animation-delay: Calc(20s * 0.75);
                 display: block;
             }
-        }
+        
         
         .cardtext {
             background-color: black;
@@ -151,20 +165,46 @@
             height: 450px;
             width: 200px;
         }
-
+        
         .thm {
             font-size: 20px;
             margin-top: 0px;
         }
+        .myclass{
+            width:calc( 100% - 500px );
+            margin: 2rem auto ;
 
-        .padding-title {
-            min-width: -webkit-fill-available;
         }
+        @media screen and (max-width: 1068px )  {
+            .myclass {
+               width: 80%;
+               margin:1 px
+            }
+            /* .mycard {
+            
+            height:550px;
+            width: 50%;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            align-content: center;
+           
+           
+        } */
 
+        @media screen and (max-width: 696px )  {
+            .mycard{
+                margin:70px;
+
+            }
+        }
+     
+        }
     </style>
-</head>
+</head> 
 
-<body>
+
+  <body>
+
     <section>
         <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
@@ -189,7 +229,6 @@
                 </div>
               
                 <div class="navbar-end">
-                    <h1 class="is-size-2 padding-title">Movie Hunter</h1>
                     <a class="navbar-item"  href="https://www.twitter.com/" target="_blank"  class="navbar-item">
                         <i
                         style=" border-radius: 30px; font-size: 25px;background-color: cornflowerblue; margin-top: auto"
@@ -205,14 +244,37 @@
         
                       </a>
                       <a class="navbar-item" href="contactus.html">
-                      Contact Us
+                      contact-us
                       </a>
                 </div>
               </div>
         </nav>
+
+
+    </section>
+    <section>
+        <div id="modalid" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <h1 id="ratings" style="background-color: bisque ;" class="is-size-1 is-danger has-text-centered" >  </h1>
+            <iframe id="video"  height="400" width ="800" src=""></iframe>
+          
+             
+            </div>
+            <button id="close"  class="modal-close is-large" aria-label="close"></button>
+          </div>
     </section>
 
-    <section class="banner is-hidden-mobile">
+    
+    <section>
+        <div class="is-hidden-tablet">
+            <h1 class="has-text-primary is-size-2 is-family-primary has-text-centered">
+                Welcome to The mobile world
+            </h1>
+        </div>
+    </section>
+
+    <section class="is-hidden-mobile">
         <div class="brands-container">
             <div class="brands-carousel">
                 <picture> <img src="./assets/pic1.jpeg" /></picture>
@@ -224,30 +286,27 @@
             </div>
         </div>
     </section>
-    <section class="columns is-justify-content-center"> 
+    <section>
+                <div class="columns myclass is-justify-content-center">   
+                    <div class="column is-12 card ">                          
+                          <input id="input" class="input is-primary" type="text" placeholder="Enter a city/town ...." />
+                            <label>
+                                Searching Within 20 Kms ....
+                            </label>
+                          
+                            <button id="searchcity" class="button is-normal is-primary my-3 is-fullwidth">
+                                Search
+                            </button>
+                    </div>
+                    
+                </div>
+             
        
-        <div class="column is-6 card mt-6" class="mt-">
-            <input id="input" class="input is-primary" type="text" placeholder="Enter a city/town/postcode...." />
-            <label class="checkbox">
-                <input type="checkbox" />
-                5kms
-              </label>
-            <label class="checkbox">
-                <input type="checkbox" />
-                20kms
-              </label>
-            <button id="searchcity" class="button is-normal is-primary my-3 is-fullwidth">
-                Search
-              </button>
-
-
-
-
-
-        </div>
 
 
     </section>
+    
+    <hr/>
     <section>
         <div class="container">
             <div id="start" class="columns container is-flex-wrap-wrap is-justify-content-center">
@@ -259,8 +318,11 @@
     </section>
     </div>
 
-    <script src="./assets/js/script.js"></script>
-
+    <script src="./assets/js/script.js"> </script>
+        <footer>
+            <div class="mt-6" >
+            </div>
+        </footer>
 
 </body>
 
