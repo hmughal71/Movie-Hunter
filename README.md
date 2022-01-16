@@ -42,7 +42,7 @@ From the getmovies function the moviesrunningat function is called and all the i
 <img src="./assets/img/movie-hunter-wireframe-3.png">
 <img src="./assets/img/movie-hunter-flowchart-1.png">
 <br/>
-<img src="./assets/img/movie-hunter-screenshot.png">
+<img src="./assets/img/movie-hunter-screenshot.PNG">
 
 <br/>
 
