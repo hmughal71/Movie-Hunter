@@ -49,29 +49,29 @@ From the getmovies function the moviesrunningat function is called and all the i
 <h2>The Team</h2>
 <ul>
     <h3>Patrick Brown</h3>
-        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
-        <li><a href = https://github.com/Pattiqus>GitHub</li>
-        <li><a href = Patticus.tv@gmail.com>Email</li>
+        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410> LinkedIn </a></li>
+    <li><a href = https://github.com/Pattiqus> GitHub </a></li>
+    <li><a href = Patticus.tv@gmail.com>Email </a></li>
 </ul>
 
 <ul>
     <h3>Sean Scott</h3>
-        <li><a href = https://www.linkedin.com/in/sean-scott-18ba07225>LinkedIn</li>
-        <li><a href = https://github.com/seanscott95>GitHub</li>
-        <li><a href = seanscott95@live.com>Email</li>     
+    <li><a href = https://www.linkedin.com/in/sean-scott-18ba07225>LinkedIn </a></li>
+    <li><a href = https://github.com/seanscott95>GitHub </a></li>
+    <li><a href = seanscott95@live.com>Email </a></li>     
 </ul>
 
 <ul>
     <h3>Bobby Cheema</h3>
-        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
-        <li><a href = https://github.com/Pattiqus>GitHub</li>
-        <li><a href = Patticus.tv@gmail.com>Email</li>
+        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410> LinkedIn </a></li>
+    <li><a href = https://github.com/bobby-cheema>GitHub </a></li>
+    <li><a href = bobby1cheema@gmail.com@gmail.com>Email </a></li>
 </ul>
 
 <ul>
     <h3>Humayun Mughal</h3>
-        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
-        <li><a href = https://github.com/Pattiqus>GitHub</li>
-        <li><a href = Patticus.tv@gmail.com>Email</li>
+        <li><a href = https://www.linkedin.com/in/humayun-mughal-65771677>LinkedIn</a></li>
+    <li><a href = https://github.com/hmughal71>GitHub</a></li>
+    <li><a href = humayun_mughal@hotmail.com>Email</a></li>
 </ul>
 </body>
