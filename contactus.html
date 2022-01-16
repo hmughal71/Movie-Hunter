@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+      integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section>
+      <nav
+        class="navbar is-primary"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a href="#"> <img src="./hsbp.jpeg" width="50" height="20" /> </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div style="font-size: 26px" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html"> Home </a>
+            <a class="navbar-item" href="aboutus.html"> About Us </a>
+            <a class="navbar-item" href="help.html"> Help </a>
+          </div>
+
+          <div class="navbar-end">
+            <a class="navbar-item">
+              <i
+                style="font-size: 33px; margin-top: auto"
+                class="icon is-large has-text-link fab fa-twitter"
+              ></i>
+            </a>
+
+            <a class="navbar-item">
+              <i
+                style="font-size: 33px; margin-top: auto"
+                class="icon is-large has-text-link fab fa-facebook-square"
+              ></i
+            ></a>
+            <a class="navbar-item" href="contactus.html"> contact-us </a>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section class="mt-6 pr-6">
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">From</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <p class="control is-expanded has-icons-left">
+              <input
+                id="name"
+                value=""
+                class="input"
+                type="text"
+                placeholder="Name"
+              />
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+            </p>
+          </div>
+          <div class="field">
+            <p class="control is-expanded has-icons-left has-icons-right">
+              <input
+                id="email"
+                class="input is-success"
+                type="email"
+                placeholder="Email"
+                value="bobby@hsbp.com.au"
+              />
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label"></div>
+        <div class="field-body">
+          <div class="field is-expanded">
+            <div class="field has-addons">
+              <p class="control">
+                <a class="button is-static"> +61 </a>
+              </p>
+              <p class="control is-expanded">
+                <input
+                  class="input"
+                  type="tel"
+                  id="phone"
+                  placeholder="Your phone number"
+                />
+              </p>
+            </div>
+            <p class="help">Do not enter the first zero</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Department</label>
+        </div>
+        <div class="field-body">
+          <div class="field is-narrow">
+            <div class="control">
+              <div class="select is-fullwidth">
+                <select>
+                  <option>Business development</option>
+                  <option>Marketing</option>
+                  <option>Sales</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label">
+          <label class="label">Already a member?</label>
+        </div>
+        <div class="field-body">
+          <div class="field is-narrow">
+            <div class="control">
+              <label class="radio">
+                <input type="radio" name="member" />
+                Yes
+              </label>
+              <label class="radio">
+                <input type="radio" name="member" />
+                No
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Subject</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input
+                class="input"
+                type="text"
+                placeholder="e.g. Partnership opportunity"
+                id="sbj"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Question</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <textarea
+                id="msg"
+                class="textarea"
+                placeholder="Explain how we can help you"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label">
+          <!-- Left empty for spacing -->
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <button id="contactus" class="button is-primary">
+                Send message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./assets/js/send.js"></script>
+  </body>
+</html>
+
