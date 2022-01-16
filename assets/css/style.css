@@ -167,3 +167,13 @@
 }
 
 }
+
+
+.mymsg {
+  width: 480px;
+  height: 300px;
+  margin-top: 50px;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+}
+

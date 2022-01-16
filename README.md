@@ -63,15 +63,3 @@ From the getmovies function the moviesrunningat function is called and all the i
 
 <ul>
     <h3>Bobby Cheema</h3>
-        <li><a href = https://www.linkedin.com/in/bobby-cheema-5ab81a124>LinkedIn</li>
-        <li><a href = https://github.com/bobby-cheema>GitHub</li>
-        <li><a href = bobby1cheema@gmail.com>Email</li></a>
-</ul>
-
-<ul>
-    <h3>Humayun Mughal</h3>
-        <li><a href = https://www.linkedin.com/in/humayun-mughal-65771677>LinkedIn</li>
-        <li><a href = https://github.com/hmughal71>GitHub</li>
-        <li><a href = humayun_mughal@hotmail.com>Email</li>
-</ul>
-</body>
