@@ -32,16 +32,16 @@ From the getmovies function the moviesrunningat function is called and all the i
 <h2>URL:</h2>
 <br>
 
-<span><a href="https://hmughal71.github.io/Movie-Hunter/">https://hmughal71.github.io/Movie-Hunter/</span>
+<span><a href="https://hmughal71.github.io/Movie-Hunter/">https://hmughal71.github.io/Movie-Hunter/ </a></span>
 
 
-<br>
+<br/>
 <h2>Screenshot:</h2>
 <img src="./assets/img/movie-hunter-wireframe-1.png">
 <img src="./assets/img/movie-hunter-wireframe-2.png">
 <img src="./assets/img/movie-hunter-wireframe-3.png">
 <img src="./assets/img/movie-hunter-flowchart-1.png">
-<br>
+<br/>
 <img src="./assets/img/movie-hunter-screenshot.png">
 
 <br/>
