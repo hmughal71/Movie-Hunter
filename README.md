@@ -51,15 +51,27 @@ From the getmovies function the moviesrunningat function is called and all the i
     <h3>Patrick Brown</h3>
         <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
         <li><a href = https://github.com/Pattiqus>GitHub</li>
-        <li><a href = Patticus.tv@gmail.com>Email</li></a>
+        <li><a href = Patticus.tv@gmail.com>Email</li>
 </ul>
 
 <ul>
     <h3>Sean Scott</h3>
         <li><a href = https://www.linkedin.com/in/sean-scott-18ba07225>LinkedIn</li>
         <li><a href = https://github.com/seanscott95>GitHub</li>
-        <li><a href = seanscott95@live.com>Email</li></a>     
+        <li><a href = seanscott95@live.com>Email</li>     
 </ul>
 
 <ul>
     <h3>Bobby Cheema</h3>
+        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
+        <li><a href = https://github.com/Pattiqus>GitHub</li>
+        <li><a href = Patticus.tv@gmail.com>Email</li>
+</ul>
+
+<ul>
+    <h3>Humayun Mughal</h3>
+        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
+        <li><a href = https://github.com/Pattiqus>GitHub</li>
+        <li><a href = Patticus.tv@gmail.com>Email</li>
+</ul>
+</body>
