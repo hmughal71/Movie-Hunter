@@ -59,9 +59,9 @@ ADD DEPLOYED URL
 
 <ul>
     <h3>Bobby Cheema</h3>
-        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
+        <li><a href = https://www.linkedin.com/in/bobby-cheema-5ab81a124/>LinkedIn</li>
         <li><a href = https://github.com/Pattiqus>GitHub</li>
-        <li><a href = Patticus.tv@gmail.com>Email</li>
+        <li><a href = bobby1cheema@gmail.com>Email</li>
 </ul>
 
 <ul>
