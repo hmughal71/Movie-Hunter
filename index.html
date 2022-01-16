@@ -16,190 +16,7 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-    <style>
-        .brands-container {
-            margin: auto;
-            overflow: visible;
-        }
-        
-        .brands-carousel {
-            position: relative;
-            padding-left: 0;
-            margin: 0;
-            height: 200px;
-            overflow: hidden;
-        }
-        
-        .brands-carousel>picture {
-            width: 100%;
-            position: absolute;
-            top: 0;
-            display: flex;
-            justify-content: center;
-            animation: carousel 15s linear infinite;
-            transform: translateX(100%);
-        }
-        
-        .brands-carousel>picture:nth-child(1) {
-            animation-name: first-picture, carousel;
-            animation-duration: 15s;
-            animation-iteration-count: 1, infinite;
-            animation-delay: 0s, 15s;
-            transform: translateX(0%);
-        }
-        
-        .brands-carousel>picture:nth-child(2) {
-            animation-delay: Calc(15s * 0.33);
-        }
-        
-        .brands-carousel>picture:nth-child(3) {
-            animation-delay: Calc(15s * 0.66);
-        }
-        
-        @keyframes first-picture {
-            0% {
-                transform: translateX(0%);
-            }
-            7.5%,
-            33% {
-                transform: translateX(0);
-            }
-            40.5%,
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-        
-        @keyframes carousel {
-            0% {
-                transform: translateX(100%);
-            }
-            7.5%,
-            33% {
-                transform: translateX(0);
-            }
-            40.5%,
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-        
-        @keyframes first-picture-responsive {
-            0% {
-                transform: translateX(0%);
-            }
-            5.5%,
-            25% {
-                transform: translateX(0);
-            }
-            30.5%,
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-        
-        @keyframes carousel-responsive {
-            0% {
-                transform: translateX(100%);
-            }
-            5.5%,
-            25% {
-                transform: translateX(0);
-            }
-            30.5%,
-            100% {
-                transform: translateX(-100%);
-            }
-        }
-        /* .brands-carousel>picture:last-child {
-            display: none;
-        } */
-        @media screen and (min-width: 1068px )  {
-            .brands-carousel {
-               height: 400px;
-            }
-         
-        } 
-         
-            @media screen and (min-width: 1068px ) and (max-width: 1782px ) {
-                .brands-carousel {
-                height: 240px;
-                }
-           }
-        
-        /* @media screen and (max-width: 766px )  {
-            .brands-carousel {
-                max-width: 200px;
-            } */
-            .brands-carousel>picture {
-                animation: carousel-responsive 20s linear infinite;
-            }
-            .brands-carousel>picture:nth-child(1) {
-                animation-name: first-picture-responsive, carousel-responsive;
-                animation-duration: 20s;
-                animation-iteration-count: 1, infinite;
-                animation-delay: 0s, 20s;
-            }
-            .brands-carousel>picture:nth-child(2) {
-                animation-delay: Calc(20s * 0.25);
-            }
-            .brands-carousel>picture:nth-child(3) {
-                animation-delay: Calc(20s * 0.5);
-            }
-            .brands-carousel>picture:nth-child(4) {
-                animation-delay: Calc(20s * 0.75);
-                display: block;
-            }
-        
-        
-        .cardtext {
-            background-color: black;
-            color: white;
-            text-align: center;
-            font-size: 14px;
-            padding-top: auto;
-        }
-        
-        .mycard {
-            background-color: rgb(251, 253, 253);
-            height: 450px;
-            width: 200px;
-        }
-        
-        .thm {
-            font-size: 20px;
-            margin-top: 0px;
-        }
-        .myclass{
-            width:calc( 100% - 500px );
-            margin: 2rem auto ;
-
-        }
-        @media screen and (max-width: 1068px )  {
-            .myclass {
-               width: 80%;
-               margin:1 px
-            }
-            /* .mycard {
-            
-            height:550px;
-            width: 50%;
-            flex-wrap: nowrap;
-            justify-content: space-evenly;
-            align-content: center;
-           
-           
-        } */
-
-        @media screen and (max-width: 696px )  {
-            .mycard{
-                margin:70px;
-
-            }
-        }
-     
-        }
-    </style>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
 </head> 
 
 
@@ -208,7 +25,7 @@
     <section>
         <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-             <a href="#"> <img src="./assets/hsbp.jpeg" width="50" height="20"    >        </a>
+             <a href="#"> <img src="./assets/img/hsbp.jpeg" width="50" height="20"    >        </a>
              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -277,12 +94,12 @@
     <section class="is-hidden-mobile">
         <div class="brands-container">
             <div class="brands-carousel">
-                <picture> <img src="./assets/pic1.jpeg" /></picture>
-                <picture> <img src="./assets/pic2.jpeg" /></picture>
+                <picture> <img src="./assets/img/pic1.jpeg" /></picture>
+                <picture> <img src="./assets/img/pic2.jpeg" /></picture>
 
-                <picture> <img src="./assets/pic3.jpeg" /></picture>
-                <picture> <img src="./assets/pic4.jpeg" /></picture>
-                <picture> <img src="./assets/pic5.jpeg" /></picture>
+                <picture> <img src="./assets/img/pic3.jpeg" /></picture>
+                <picture> <img src="./assets/img/pic4.jpeg" /></picture>
+                <picture> <img src="./assets/img/pic5.jpeg" /></picture>
             </div>
         </div>
     </section>

@@ -34,10 +34,10 @@ From the getmovies function the moviesrunningat function is called and all the i
 ADD DEPLOYED URL
 
 <h2>Screenshot:</h2>
-<img src="./assets/movie-hunter-wireframe-1.png">
-<img src="./assets/movie-hunter-wireframe-2.png">
-<img src="./assets/movie-hunter-wireframe-3.png">
-<img src="./assets/movie-hunter-flowchart-1.png">
+<img src="./assets/img/movie-hunter-wireframe-1.png">
+<img src="./assets/img/movie-hunter-wireframe-2.png">
+<img src="./assets/img/movie-hunter-wireframe-3.png">
+<img src="./assets/img/movie-hunter-flowchart-1.png">
 
 
 <br/>
