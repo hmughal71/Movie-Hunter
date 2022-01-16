@@ -70,8 +70,8 @@ From the getmovies function the moviesrunningat function is called and all the i
 
 <ul>
     <h3>Humayun Mughal</h3>
-        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
-        <li><a href = https://github.com/Pattiqus>GitHub</li>
-        <li><a href = Patticus.tv@gmail.com>Email</li>
+        <li><a href = https://www.linkedin.com/in/humayun-mughal-65771677/</li>
+        <li><a href = https://github.com/hmughal71>GitHub</li>
+        <li><a href = humayun_mughal@hotmail.com>Email</li>
 </ul>
 </body>
