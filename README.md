@@ -25,20 +25,24 @@ From the getmovies function the moviesrunningat function is called and all the i
     <li>Font Awesome</li>
     <li>HTML 5</li>
     <li>CSS 4</li>
-<ul>
+</ul>
 
 <br/>
 
 <h2>URL:</h2>
+<br>
 
-ADD DEPLOYED URL
+<span><a href="https://hmughal71.github.io/Movie-Hunter/">https://hmughal71.github.io/Movie-Hunter/</span>
 
+
+<br>
 <h2>Screenshot:</h2>
 <img src="./assets/img/movie-hunter-wireframe-1.png">
 <img src="./assets/img/movie-hunter-wireframe-2.png">
 <img src="./assets/img/movie-hunter-wireframe-3.png">
 <img src="./assets/img/movie-hunter-flowchart-1.png">
-
+<br>
+<img src="./assets/img/movie-hunter-screenshot.png">
 
 <br/>
 
@@ -47,27 +51,15 @@ ADD DEPLOYED URL
     <h3>Patrick Brown</h3>
         <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
         <li><a href = https://github.com/Pattiqus>GitHub</li>
-        <li><a href = Patticus.tv@gmail.com>Email</li>
+        <li><a href = Patticus.tv@gmail.com>Email</li></a>
 </ul>
 
 <ul>
     <h3>Sean Scott</h3>
         <li><a href = https://www.linkedin.com/in/sean-scott-18ba07225>LinkedIn</li>
         <li><a href = https://github.com/seanscott95>GitHub</li>
-        <li><a href = seanscott95@live.com>Email</li>     
+        <li><a href = seanscott95@live.com>Email</li></a>     
 </ul>
 
 <ul>
     <h3>Bobby Cheema</h3>
-        <li><a href = https://www.linkedin.com/in/bobby-cheema-5ab81a124/>LinkedIn</li>
-        <li><a href = https://github.com/Pattiqus>GitHub</li>
-        <li><a href = bobby1cheema@gmail.com>Email</li>
-</ul>
-
-<ul>
-    <h3>Humayun Mughal</h3>
-        <li><a href = https://www.linkedin.com/in/patrick-brown-52553410a>LinkedIn</li>
-        <li><a href = https://github.com/Pattiqus>GitHub</li>
-        <li><a href = Patticus.tv@gmail.com>Email</li>
-</ul>
-</body>
