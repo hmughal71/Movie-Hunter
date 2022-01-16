@@ -7,19 +7,31 @@
     <title>Contact Us</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
-    />
-    <link
-      rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+
     <script
       src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
       integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
       crossorigin="anonymous"
     ></script>
+
+    <style>
+      .mymsg {
+        width: 480px;
+        height: 300px;
+        margin-top: 50px;
+        /* border: 1px solid black; */
+        border-radius: 20px;
+      }
+    </style>
   </head>
   <body>
     <section>
@@ -29,7 +41,9 @@
         aria-label="main navigation"
       >
         <div class="navbar-brand">
-          <a href="#"> <img src="./assets/img/hsbp.jpeg" width="50" height="20" /> </a>
+          <a href="#">
+            <img src="./assets/img/hsbp.jpeg" width="50" height="20" />
+          </a>
           <a
             role="button"
             class="navbar-burger"
@@ -41,7 +55,7 @@
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div style="font-size: 26px" class="navbar-menu">
+        <div class="navbar-menu">
           <div class="navbar-start">
             <a class="navbar-item" href="index.html"> Home </a>
             <a class="navbar-item" href="aboutus.html"> About Us </a>
@@ -49,20 +63,38 @@
           </div>
 
           <div class="navbar-end">
-            <a class="navbar-item">
+            <a
+              class="navbar-item"
+              href="https://www.twitter.com/"
+              target="_blank"
+              class="navbar-item"
+            >
               <i
-                style="font-size: 33px; margin-top: auto"
-                class="icon is-large has-text-link fab fa-twitter"
+                style="
+                  border-radius: 30px;
+                  font-size: 25px;
+                  background-color: cornflowerblue;
+                  margin-top: auto;
+                "
+                class="icon is-large fab fa-twitter"
               ></i>
             </a>
-
-            <a class="navbar-item">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="navbar-item"
+            >
               <i
-                style="font-size: 33px; margin-top: auto"
-                class="icon is-large has-text-link fab fa-facebook-square"
-              ></i
-            ></a>
-            <a class="navbar-item" href="contactus.html"> contact-us </a>
+                style="
+                  border-radius: 30px;
+                  font-size: 25px;
+                  background-color: cornflowerblue;
+                  margin-top: auto;
+                "
+                class="icon is-large has-text-light fab fa-facebook-square"
+              ></i>
+            </a>
+            <a class="navbar-item" href="contactus.html"> Contact Us </a>
           </div>
         </div>
       </nav>
@@ -222,4 +254,3 @@
     <script src="./assets/js/send.js"></script>
   </body>
 </html>
-
